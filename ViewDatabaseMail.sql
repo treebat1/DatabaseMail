@@ -6,7 +6,7 @@ EXECUTE msdb.dbo.sysmail_help_profile_sp;
 
 
 exec msdb.dbo.sp_send_dbmail 
-@recipients = 'christopher.riley@unionbank.com'
+@recipients = 'someone@company.com'
 , @Subject = 'Test'
 , @Body = 'Test'
 
