@@ -10,6 +10,6 @@ exec msdb.dbo.sysmail_update_account_sp @account_name =  'DMTest2016_MailAccount
 
 
 exec msdb.dbo.sp_send_dbmail 
-    @recipients =  'christopher.riley@unionbank.com'  
+    @recipients =  ''  
     , @subject = 'Test Email'   
     , @body = 'Test Email'
